@@ -8,7 +8,7 @@ function start () {
         numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
     }
 }
-// start();
+start();
 
 
 let personalMovieDB = {
@@ -35,7 +35,7 @@ function rememberMyFilms () {
         }
     }
 }
-// rememberMyFilms();
+rememberMyFilms();
 
 
 function detectPersonalLevel() {
@@ -49,7 +49,7 @@ function detectPersonalLevel() {
         console.log('Произошла ошибка');
     }
 }
-// detectPersonalLevel();
+detectPersonalLevel();
 
 
 function showMyDB (hidden) {
